@@ -1,0 +1,10 @@
+-------Expected Results--------------------
+Number of contigs = 3
+Min contig length = 50
+Max contig length = 52
+Total contig length = 50+51+52= 153
+Average contig length = Total contig length/Number of contigs = 153/3 =51
+
+N50 =  51
+
+
