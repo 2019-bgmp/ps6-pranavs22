@@ -1,0 +1,19 @@
+Contig length	Number of contigs in this category
+0	3
+100	0
+*******************************
+
+Contig Count:3
+
+Max contig length:52
+
+Min contig length:50
+
+Total contig length:153
+
+Average contig legth:3.0
+
+Mean Depth Coverage:254.33333333333334
+
+N50:51
+
