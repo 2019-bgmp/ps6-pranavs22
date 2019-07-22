@@ -1,0 +1,111 @@
+*********************************************************************************************************
+
+Part0
+
+I created a file named Unit_test.fa with 3 records and calculated N50,Expected Coverage,kmer coverage, 
+maximum contig length, minimum contig length,average contig length,total contig length.
+
+The Python code from Part1 confirms the expected results by giving output in file named Unit_test_processed_stats.txt
+Files on GitHub-
+1)Unit_test.fa-
+2)expected results.txt
+3)Unit_test_processed_stats.txt
+
+Part1
+
+A python file named PS6_part1.py is created to do all the calculations
+
+Part2
+
+*******************Velveth******************************************
+        
+1)kmer-31
+
+		Command being timed: "velveth /projects/bgmp/pranavs/PS6/velvet_run/velveth_31 31 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched"
+		User time (seconds): 2102.68
+		System time (seconds): 1.26
+		Percent of CPU this job got: 99%
+		Elapsed (wall clock) time (h:mm:ss or m:ss): 35:04.17
+		Exit status: 0
+
+
+Reference-->
+Script/home/pranavs/PS6/velvet_run/velveth_31/velvet.srun
+Output /home/pranavs/PS6/velvet_run/velveth_31/slurm-9613475-velveth_run_k31.out
+
+2)Kmer-41
+
+        Command being timed: "velveth /projects/bgmp/pranavs/PS6/velvet_run/velveth_41 41 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched"
+        User time (seconds): 2146.81
+        System time (seconds): 1.34
+        Percent of CPU this job got: 99%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 35:48.63
+        Exit status: 0
+
+Reference-->
+Script /home/pranavs/PS6/velvet_run/velveth_41/velvet_41.srun
+Output /home/pranavs/PS6/velvet_run/velveth_41/slurm-9613632-velveth_run_k31.out
+
+3)Kmer-49
+
+        Command being timed: "velveth /projects/bgmp/pranavs/PS6/velvet_run/velveth_49 49 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched"
+        User time (seconds): 2099.53
+        System time (seconds): 1.27
+        Percent of CPU this job got: 99%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 35:01.21
+		Exit status: 0
+
+Reference-->
+Script/home/pranavs/PS6/velvet_run/velveth_49/velvet_49.srun
+Output /home/pranavs/PS6/velvet_run/velveth_49/slurm-9613705-velveth_run_k31.out
+
+
+################Velvet_g####################################################
+
+I ran all the velvetg variations in single bash script
+
+Reference-->
+Script: /home/pranavs/PS6/velvet_run/velveth_31/velvet_p6_part4.srun
+Output: /home/pranavs/PS6/velvet_run/velveth_31/slurm-9617018-velvetg31.out
+
+######################Statistics Calculation#################################
+
+I made a Python Script to calculate all the required variables
+File name -> PS6_part1.py
+Statistics for kmer 31 - Uploaded on GitHub. Filename->contigs_31_part2-3_processed_stats.txt	
+Statistics for kmer 41 - Uploaded on GitHub. Filename->contigs_41_part2-3_processed_stats.txt	
+Statistics for kmer 49 - Uploaded on GitHub. Filename->contigs_49_part2-3_processed_stats.txt	
+
+Statistics for kmer 49 cov 20 Uploaded on GitHub. Filename->contigs_49_20_part2-4_processed_stats.txt	
+Statistics for kmer 49 cov 60 Uploaded on GitHub. Filename->contigs_49_60_part2-4_processed_stats.txt
+Statistics for kmer 49 cov autoUploaded on GitHub. Filename->contigs_49_auto_part2-4_processed_stats.txt
+Statistics for kmer 49 cov auto mon_contig_length - Uploaded on GitHub. Filename->contigs_500_processed_stats.txt
+
+######################Graphs##################################################
+	
+	contigs_49_part2-3.png
+
+Graph for kmer 31  -->contigs_31_part2-3.png	
+Graph for kmer 41  -->contigs_41_part2-3.png	
+Graph for kmer 49  -->contigs_49_part2-3.png
+Graph for kmer 49 at cov cutoff 20 -->contigs_49_20_part4.png	
+Graph for kmer 49 at cov cutoff 60 -->contigs_49_20_part4.png
+Graph for kmer 49 at cov cutoff auto -->contigs_49_20_part4.png	
+Graph for kmer 49 at cov cutoff auto and min_contig_length 500 -->contigs_500.png
+	
+
+
+	
+Part3
+Answers are written in file PS6_Part3 uploaded on GitHub	
+	
+	
+	
+	
+	
+*******************END********************************************************
+
+
+
+
+
